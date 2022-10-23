@@ -51,4 +51,20 @@
     <h2>EJS</h2>
     <p>EJS is a templating language that can build HTML <br>
     </p>
+
+    
+    <h2>Middleware functions</h2>
+    <p>
+      Middleware functions in node is functions that has  all the access for requesting an object and responding to an object.</p>
+      <pre>
+        function checkAuthenticated(req, res, next) {
+          if (req.isAuthenticated()) {
+            return next()
+          }
+          res.redirect('/login')
+        }
+      </pre>
+      <p>
+      Next is a Callback argument to the middleware function, called "next" by convention.
+    </p>
 </div>

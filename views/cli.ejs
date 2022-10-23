@@ -1,0 +1,34 @@
+<link rel='stylesheet' href='/style.css' />
+<%- include('components/header')%>
+
+<h1>Command-line interface</h1>
+<h2>Relevant commands</h2>
+
+
+<pre>
+        Git clone INSERTURL
+</pre>
+<p>This commmand clone the repository, so you can continue developing<br>
+
+When the project is cloned, you need to enter the repository</p>
+<pre>
+        CD node-js-mandatory1
+</pre>
+<p>This command changes directory to the repository.</p>
+
+<p>Lets pretend you need start a new node project</p>
+<pre>
+        mkdir 'reponame'
+        cd 'reponame'
+        npm install node
+        node -v
+</pre>
+<p>Now, we have created our new repository, entered the repository and installed Node JS<br>
+And we can see that our version of node is 18.8.0</p>
+<p>When developing is done and it needs to be pushed to the repository on github, use following command:</p>
+<pre>
+    Git add -a
+    Git commit -m "commit message"
+    git push
+</pre>
+<p>This adds all the changes in the code to the commit, then adds a message to show whats being changed in the code, and then push it to the repository.</p>

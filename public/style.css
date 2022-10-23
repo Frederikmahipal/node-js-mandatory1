@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+input[type=username], input[type=password],[type=header]{
+  padding: 14px 50px;
+  margin: 8px 600;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00e699;
+  color: white;
+  padding: 10 20px;
+  margin: 8px 650;
+  border: none;
+  width: 10%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #00e699;
+  color: white;
+  padding: 10 20px;
+  margin: 8px 650;
+  border: none;
+  width: 10%;
+}
+
+.button2 {
+  background-color: red;
+  color: white;
+  padding: 10 20px;
+  margin: 8px 650;
+  border: none;
+  width: 10%;
+}
+
+
+textarea {
+  padding: 14px 50px;
+  margin: 8px 600;
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+pre {
+  text-align: center;
+}
+
+.fillpage{
+  text-align: center;
+  border: 1px solid white;
+}

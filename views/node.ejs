@@ -1,0 +1,54 @@
+<link rel='stylesheet' href='/style.css' />
+<%- include('components/header')%>
+<div>
+  <h1>Node JS</h1>
+  <p>
+    Node JS is a javascript framework used to build server-side applications. Node JS can be used for frontend and backend aswell. 
+  </p>
+
+  <p>To get started with a node project, enter following command in your CLI in your directory:</p>
+  <pre>
+    <code>
+      npm install node
+    </code>
+  </pre>
+  <p>After the installation, a folder called 'node_modules' will apear in your repository. This folder isn't ment to be pushed or anything.<br>
+  The package.json folder is where you'll find your dependencies, Scripts, application information and more.
+
+  <p>This webpage uses multiplte packages, for example express, ejs and nodemon <br>
+  The install command for this has beeen:
+  <pre>
+      npm install express
+      npm install nodemon
+      npm install ejs
+  </pre>
+  
+    <h2>Express</h2>
+    
+    <p>
+      Express is a Node web framework.
+      Express is used to make and create API's. <br>
+      This is an example on how to setup a basic express server. 
+    </p>
+    <pre>
+        const express = require('express')
+        const app = express()
+    </pre>
+    <p>
+    With express we are able to set some specific options for our project like: <br>
+    - Set the location of the files there is rendered in this project <br>
+    - setting up a live server on a port where the project is running
+    </p>
+    
+
+    <h2>
+      Nodemon
+    </h2>
+    <p>
+      Nodemon is a tool thats automatically restarts the server everytime change is made to the code.
+    </p>
+
+    <h2>EJS</h2>
+    <p>EJS is a templating language that can build HTML <br>
+    </p>
+</div>

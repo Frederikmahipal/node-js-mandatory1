@@ -1,0 +1,23 @@
+<link rel='stylesheet' href='/style.css' />
+<%- include('components/header')%>
+<div>
+  <h1>Server Side Rendering</h1>
+    <p>
+      Server side rendering is a way to generate HTML from javascript via a server. This is commonly used in static web apps.
+    </p>
+    <p>
+      This is used for rendering websites faster. The server prerenders all the html, css and javascript files before sending it to the client.
+    </p>
+    <p>
+      The opposite here would be client side rendering, where the server doesn't prerenders all the files, and therefor it's rendered on the clients side.
+    </p>
+    <p>So everytime the client refreshes the page, the server has to rebuild the whole project before sending it to the client.
+    </p>
+    <p>This webpage uses Express to render the files:
+    </p>
+    <pre>
+        app.get('/ssr', (req, res) => {
+          res.render('ssr.ejs')
+        })
+    </pre>
+</div>
